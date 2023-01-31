@@ -43,6 +43,9 @@ public class Customer {
   public String getAssignedTable() {
     return assignedTable;
   }
+  
+  public void giveMoney(Employee e) {
+  }
 
   public void orderFood() {
   }
