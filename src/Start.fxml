@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="background" prefHeight="400.0" prefWidth="600.0" styleClass="background" stylesheets="@Start.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="StartController">
+   <children>
+      <VBox id="startBox" alignment="CENTER" layoutX="82.0" layoutY="64.0" prefHeight="273.0" prefWidth="436.0">
+         <children>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="New Beginnings" textAlignment="CENTER" wrappingWidth="332.13525390625">
+               <font>
+                  <Font name="Freestyle Script" size="65.0" />
+               </font>
+               <VBox.margin>
+                  <Insets top="20.0" />
+               </VBox.margin></Text>
+            <Text layoutX="62.0" layoutY="123.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Cafe" textAlignment="CENTER" wrappingWidth="332.13525390625">
+               <font>
+                  <Font name="Freestyle Script" size="65.0" />
+               </font>
+               <VBox.margin>
+                  <Insets top="-30.0" />
+               </VBox.margin>
+            </Text>
+            <Button id="startButton" mnemonicParsing="false" stylesheets="@Start.css" text="Start" onAction ="#start">
+               <VBox.margin>
+                  <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+               </VBox.margin></Button>
+            <Button id="exitButton" mnemonicParsing="false" stylesheets="@Start.css" text="Exit">
+               <VBox.margin>
+                  <Insets bottom="20.0" left="20.0" right="20.0" />
+               </VBox.margin></Button>
+         </children>
+      </VBox>
+      <ImageView fitHeight="269.0" fitWidth="408.0" layoutX="-59.0" layoutY="130.0" pickOnBounds="true" preserveRatio="true" style="-fx-translate-x: 40;" AnchorPane.bottomAnchor="1.0" AnchorPane.leftAnchor="-123.0" AnchorPane.rightAnchor="315.0" AnchorPane.topAnchor="130.0">
+         <image>
+            <Image url="@staff.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
