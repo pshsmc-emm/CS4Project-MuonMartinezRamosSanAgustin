@@ -1,0 +1,18 @@
+#background {
+    -fx-background-image: url("/Images/bg.png");
+}
+#startBox {
+    -fx-background-color: rgba(255,255,255,0.8);
+}
+#title {
+    -fx-font-family: cursive; 
+}
+#startButton {
+    -fx-padding: 5px 20px 5px 20px;
+}
+#exitButton {
+    -fx-padding: 5px 20px 5px 20px;
+}
+#staffImage {
+    -fx-padding: 0px 0px 0px 20px;
+}

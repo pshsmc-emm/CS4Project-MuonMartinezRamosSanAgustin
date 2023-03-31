@@ -1,0 +1,12 @@
+#background {
+    -fx-background-image: url("/Images/bg.png");
+}
+
+#mid {
+    -fx-background-color: rgb(199, 167, 120);
+    -fx-cornerRadius: 25px;
+}
+
+#grid {
+    -fx-background-color: rgb(165, 200, 130);
+}
